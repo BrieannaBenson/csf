@@ -19,13 +19,13 @@ import math                     # makes the math.sqrt function available
 print "Problem 1 solution follows:"
 
 # stores the three individual values for a, b, and c in the quadratic function, specifically that of the equation (x^2 - 5.86x + 8.5408)
-a = 1
-b = -5.86
-c = 8.5408
+matha = 1
+mathb = -5.86
+mathc = 8.5408
 
 # calculates and stores the root values of the equation once passed through the quadratic function
-root1 = ((b* -1) + math.sqrt((b**2) + (4*a*c)))/(2*a)
-root2 = ((b* -1) - math.sqrt((b**2) + (4*a*c)))/(2*a)
+root1 = ((mathb* -1) + math.sqrt((mathb**2) + (4*matha*mathc)))/(2*matha)
+root2 = ((mathb* -1) - math.sqrt((mathb**2) + (4*matha*mathc)))/(2*matha)
 
 # convert floats to strings
 result1 = str(root1)
