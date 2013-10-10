@@ -1,1 +1,0 @@
-Problem 1 solution follows:The roots are: 7.06832091554 and -1.20832091554Problem 2 solution follows:a = Trueb = Falsec = Trued = Falsee = Falsef = TrueProblem 3 solution follows:False
