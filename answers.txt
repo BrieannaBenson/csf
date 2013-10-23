@@ -1,0 +1,44 @@
+Name: Brieanna Benson
+Evergreen Login: benbri03
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.430599870611
+
+Problem 3:
+
+What happened to the program was simply that it got an error. "linenum is undefined"  Because the variable was never assigned in the first place, when it was assigned a value that included the value of itself, it could not compute.
+
+In the original form of the program, removing that line would have produced the same result as previously stated.  Because it is a variable assigning itself as its own value, it is a null, undefined, and thus cannot be used in calculation yet.
+
+Problem 4:
+
+AT-content: 0.569400129389
+
+Collaboration:
+
+No One
+
+Reflection:
+
+The major point of frustration came to me when I saw the horrid amount of 'if' statements I would have had to code.  With what output was expected from the program, I found it simpler to create a comparing function and spit out a count up instead of writing all of those comparison statement.
+
+I definitely suggest everyone start using functions with these ridiculous calculations we'll be getting into.  Even this small taste required one….so many more will be needed in bigger projects.
+
+I'm not quite sure what I'd do differently just yet.  I feel relatively confident about the results I got.  The arithmetic is my only real worry, but that can be easily fixed if something goes wrong in the end.
