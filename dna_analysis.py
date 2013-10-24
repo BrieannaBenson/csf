@@ -64,6 +64,7 @@ for line in inputfile:
 # Total nucleotides seen so far.
 total_count = 0
 sum_total = 0
+seq_length = 0
 
 # Number of A, T, C, and G seen.
 c_count = 0
@@ -87,6 +88,9 @@ for bp in seq:
     a_count += dna_compare(bp, 'A')
     t_count += dna_compare(bp, 'T')
 
+# finds the length of the sequence
+seq_length = len(seq)
+
 # sums up all the four types
 sum_total = a_count + t_count + g_count + c_count
 
@@ -98,9 +102,9 @@ at_content = float(a_count + t_count) / sum_total
 atgc_ratio = at_content / gc_content
 
 # compares the ratio to numbers and defines its gc class
-if atgc_ratio < 1:
+if gc_content >= 0.6:
     gc_class = 'High GC Content'
-elif atgc_ratio >= 1 and atgc_ratio < 2:
+elif gc_content < 0.6 and gc_content > 0.4:
     gc_class = 'Moderate GC Content'
 else:
     gc_class = 'Low GC Content'
@@ -114,6 +118,6 @@ print 'A-count:', a_count
 print 'T-count:', t_count
 print 'Sum count:', sum_total
 print 'Total count:', total_count
-print 'Seq length:', total_count
+print 'Seq length:', seq_length
 print 'AT/GC Ratio:', atgc_ratio
 print 'GC Classification:', gc_class
