@@ -1,0 +1,67 @@
+Name: Brieanna Benson
+Evergreen Login: benbri03
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 and 4
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.430599870611
+
+Problem 3:
+
+What happened to the program was simply that it got an error. "linenum is undefined"  Because the variable was never assigned in the first place, when it was assigned a value that included the value of itself, it could not compute.
+
+In the original form of the program, removing that line would have produced the same result as previously stated.  Because it is a variable assigning itself as its own value, it is a null, undefined, and thus cannot be used in calculation yet.
+
+Problem 4:
+
+AT-content: 0.569400129389
+
+Problem 5:
+
+G-count: 1
+C-count: 2
+A-count: 5
+T-count: 2
+
+Problem 6:
+Sum is different than both total and seq length in every file except test-small.fastq
+
+The reason why the metrics differ is because the sum is adding together the total number of G, C, A, and T's counted.  Because the counts only included those after the scan search, it would differ from the other two counts.  The total counted all the read characters in the sequence, whether or not they would be one of the four valid characters or not.  The sequence length would be the same as the total because in measuring the sequence, you measure the total list that is about to be read.
+
+Problem 7:
+
+AT/GC Ratio: 1.32234161747
+
+Problem 8:
+
+GC Classification: Moderate GC Content
+
+Collaboration:
+
+No One
+
+Reflection:
+
+The major point of frustration came to me when I saw the horrid amount of 'if' statements I would have had to code.  With what output was expected from the program, I found it simpler to create a comparing function and spit out a count up instead of writing all of those comparison statement.
+
+I definitely suggest everyone start using functions with these ridiculous calculations we'll be getting into.  Even this small taste required one….so many more will be needed in bigger projects.
+
+I'm not quite sure what I'd do differently just yet.  I feel relatively confident about the results I got.  The arithmetic is my only real worry, but that can be easily fixed if something goes wrong in the end.
+
+
+
