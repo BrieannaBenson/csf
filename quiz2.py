@@ -1,4 +1,4 @@
-from Lab import n
+from lab2 import n
 
 if (n > 50):
   print 'greater than 50'
