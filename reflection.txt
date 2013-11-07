@@ -1,0 +1,18 @@
+Name: Brieanna Benson
+UW NetID: benbri03
+CSF 2013
+Homework 5: Election prediction
+
+
+Collaboration:
+
+No One
+
+Reflection:
+
+This work was certainly interesting.  While we were only implementing the functions, looking down at the main system made it easier to trace in the grand scheme of things.  Of coarse each method was tested one by one.  But in a lot of cases, one would not work without the other functioning….so no cheap outs.  
+
+I may need to be careful on my casting.  I lot of times I had been guiding the function to use the dictionary's keys when the value was needed.  Tracing these values proved tiring.  Thankfully, testing the functions out and printing results in the midst of it all helped me nailed down where the issues were.  
+
+Definitely going to do some trace drawings beforehand next time.  I am surprised I made it to problem 5…and then ran out of time.  The netting of it all together made this a more difficult challenge, but the application of it all made sense to me!
+
