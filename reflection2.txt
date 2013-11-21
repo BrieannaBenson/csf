@@ -1,0 +1,21 @@
+Name: Brieanna Benson
+UW NetID: benbri03
+CSF 2013
+Homework 7: Election prediction
+
+
+Collaboration:
+
+No One
+
+Reflection:
+
+This work was certainly interesting.  While we were only implementing the functions, looking down at the main system made it easier to trace in the grand scheme of things.  Of coarse each method was tested one by one.  But in a lot of cases, one would not work without the other functioning….so no cheap outs.  
+
+I may need to be careful on my casting.  I lot of times I had been guiding the function to use the dictionary's keys when the value was needed.  Tracing these values proved tiring.  Thankfully, testing the functions out and printing results in the midst of it all helped me nailed down where the issues were.  
+
+Definitely going to do some trace drawings beforehand next time.  I am surprised I made it to problem 5…and then ran out of time.  The netting of it all together made this a more difficult challenge, but the application of it all made sense to me!
+
+…Upon completing the parts left for Homework 7…
+
+That was a serious challenge, but I enjoyed it despite the many headaches I got in the process.  The real key for me in figuring out how to solve the problem as a whole is following along as to what each part would do to a given value, and what values it was taking first.  Matching up states and edges and all the errors that came with the weighted edges proved tricky to follow, but once you rewrite it down on paper and map it things prove a little easier.  Parts in a machine; that's what this reminds me of. Getting each part to work is one thing, but getting them all to work together is another.  I had a big smile on when I found out I got the predictions correct in the end.  It was also interesting to poke into the main function and see how my functions fit together.
