@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Brieanna Benson
+# Evergreen Login: benbri03
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 8
